@@ -1,0 +1,729 @@
+{
+  "n_total": 100,
+  "overall_agreement": 0.55,
+  "per_lexical_bucket": {
+    "immunogenic_gated": {
+      "immunogenic_gated": 9,
+      "permissive": 9,
+      "mixed": 4,
+      "cold_gated": 3
+    },
+    "cold_gated": {
+      "cold_gated": 19,
+      "permissive": 5,
+      "mixed": 1
+    },
+    "mixed": {
+      "immunogenic_gated": 5,
+      "permissive": 6,
+      "mixed": 3,
+      "cold_gated": 11
+    },
+    "permissive": {
+      "permissive": 24,
+      "immunogenic_gated": 1
+    }
+  },
+  "results": [
+    {
+      "nctId": "NCT06305962",
+      "lexical": "immunogenic_gated",
+      "judge": "immunogenic_gated",
+      "agree": true,
+      "rationale": "Inclusion criterion 4 explicitly requires PD-L1 positive tumors, excluding immune-cold/PD-L1-negative TNBC patients."
+    },
+    {
+      "nctId": "NCT06636981",
+      "lexical": "immunogenic_gated",
+      "judge": "permissive",
+      "agree": false,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD threshold required for enrollment; biomarkers collected retrospectively only."
+    },
+    {
+      "nctId": "NCT05233696",
+      "lexical": "immunogenic_gated",
+      "judge": "immunogenic_gated",
+      "agree": true,
+      "rationale": "Inclusion criterion #6 explicitly requires PD-L1 CPS >10%, excluding immune-cold BLIS-like patients."
+    },
+    {
+      "nctId": "NCT05914961",
+      "lexical": "immunogenic_gated",
+      "judge": "mixed",
+      "agree": false,
+      "rationale": "Trial includes an experimental arm requiring PD-L1+ (IC\u22651 or CPS\u226510) and a separate non-experimental group without this immune-hot requirement."
+    },
+    {
+      "nctId": "NCT06691594",
+      "lexical": "immunogenic_gated",
+      "judge": "cold_gated",
+      "agree": false,
+      "rationale": "Eligibility explicitly requires PD-L1 CPS < 10, selecting immune-cold tumors and excluding immune-hot/PD-L1-high patients."
+    },
+    {
+      "nctId": "NCT02447003",
+      "lexical": "immunogenic_gated",
+      "judge": "mixed",
+      "agree": false,
+      "rationale": "Part 1 second-line requires no immune marker; Part 1 first-line requires PD-L1+; Part 2 requires PD-L1 strong positive\u2014simultaneously permissive and immunogenic-gated arms."
+    },
+    {
+      "nctId": "NCT06768931",
+      "lexical": "immunogenic_gated",
+      "judge": "permissive",
+      "agree": false,
+      "rationale": "PD-L1 testing required for specimens but no minimum PD-L1/TIL/BRCA threshold mandated for enrollment; any TNBC stage IIA-IIIC eligible."
+    },
+    {
+      "nctId": "NCT07491822",
+      "lexical": "immunogenic_gated",
+      "judge": "permissive",
+      "agree": false,
+      "rationale": "No PD-L1, TIL threshold, or BRCA/HRD requirement for enrollment; sTIL is assessed but not used as an eligibility gate."
+    },
+    {
+      "nctId": "NCT05866432",
+      "lexical": "immunogenic_gated",
+      "judge": "permissive",
+      "agree": false,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD requirements; any TNBC patient with brain metastases is eligible regardless of immune phenotype."
+    },
+    {
+      "nctId": "NCT02819518",
+      "lexical": "immunogenic_gated",
+      "judge": "permissive",
+      "agree": false,
+      "rationale": "PD-L1 status collected but not required for enrollment; all TNBC patients eligible regardless of PD-L1/TIL/BRCA status."
+    },
+    {
+      "nctId": "NCT05329532",
+      "lexical": "immunogenic_gated",
+      "judge": "permissive",
+      "agree": false,
+      "rationale": "TNBC cohort has no PD-L1, TIL, or BRCA requirement; PD-L1 CPS\u22651 applies only to SCCHN arm, not TNBC."
+    },
+    {
+      "nctId": "NCT05208762",
+      "lexical": "immunogenic_gated",
+      "judge": "permissive",
+      "agree": false,
+      "rationale": "TNBC parts require only prior PD-L1 testing (any result), not a positive threshold; both PD-L1\u22651 and <1 are eligible."
+    },
+    {
+      "nctId": "NCT05266937",
+      "lexical": "immunogenic_gated",
+      "judge": "immunogenic_gated",
+      "agree": true,
+      "rationale": "Requires PD-L1 positive (SP142, immune cells \u22651%), explicitly excluding PD-L1-negative/immune-cold TNBC patients."
+    },
+    {
+      "nctId": "NCT05491226",
+      "lexical": "immunogenic_gated",
+      "judge": "cold_gated",
+      "agree": false,
+      "rationale": "Requires low TILs (sTIL\u226440%), CPS<10, or PD-L1<1%, explicitly selecting immune-cold/non-immunogenic TNBC patients."
+    },
+    {
+      "nctId": "NCT05609903",
+      "lexical": "immunogenic_gated",
+      "judge": "immunogenic_gated",
+      "agree": true,
+      "rationale": "Requires PD-L1 \u22651% on tumor-infiltrating immune cells by SP142 assay, explicitly excluding PD-L1-negative (immune-cold) patients."
+    },
+    {
+      "nctId": "NCT06150664",
+      "lexical": "immunogenic_gated",
+      "judge": "permissive",
+      "agree": false,
+      "rationale": "TNBC patients only need prior sacituzumab and pembrolizumab if PD-L1\u226510%; no mandatory PD-L1 positivity or BRCA status required for enrollment."
+    },
+    {
+      "nctId": "NCT03393416",
+      "lexical": "immunogenic_gated",
+      "judge": "immunogenic_gated",
+      "agree": true,
+      "rationale": "Inclusion requires PDL1 positive or MSI-high status (stage 2/3), explicitly excluding immune-cold PD-L1 negative tumors."
+    },
+    {
+      "nctId": "NCT04596150",
+      "lexical": "immunogenic_gated",
+      "judge": "mixed",
+      "agree": false,
+      "rationale": "Arm B requires high CD166 only (no immune gate); Arm C additionally requires PD-L1 positivity, gating on immune-hot tumors simultaneously within the same trial."
+    },
+    {
+      "nctId": "NCT03151447",
+      "lexical": "immunogenic_gated",
+      "judge": "permissive",
+      "agree": false,
+      "rationale": "Tissue collected for PD-L1/TIL detection but no minimum threshold required for enrollment; any TNBC patient eligible regardless of immune-phenotype."
+    },
+    {
+      "nctId": "NCT03952325",
+      "lexical": "immunogenic_gated",
+      "judge": "mixed",
+      "agree": false,
+      "rationale": "Cohort 1 (TNBC + PD-L1 positive required) is immunogenic-gated; Cohorts 2/3 (HER2-negative, no immune marker requirement) are permissive."
+    },
+    {
+      "nctId": "NCT05001347",
+      "lexical": "immunogenic_gated",
+      "judge": "immunogenic_gated",
+      "agree": true,
+      "rationale": "Cohort 2 requires PD-L1 CPS\u22651% for TNBC and other tumors, explicitly excluding PD-L1-negative (immune-cold) patients."
+    },
+    {
+      "nctId": "NCT07173751",
+      "lexical": "immunogenic_gated",
+      "judge": "cold_gated",
+      "agree": false,
+      "rationale": "Trial explicitly requires PD-L1 negative status (ineligible for PD(L)1 therapy), thereby selecting immune-cold tumors and excluding immune-hot patients."
+    },
+    {
+      "nctId": "NCT04434560",
+      "lexical": "immunogenic_gated",
+      "judge": "immunogenic_gated",
+      "agree": true,
+      "rationale": "TNBC patients must be PD-L1 positive to enroll, explicitly excluding immune-cold PD-L1-negative TNBC tumors."
+    },
+    {
+      "nctId": "NCT03815890",
+      "lexical": "immunogenic_gated",
+      "judge": "immunogenic_gated",
+      "agree": true,
+      "rationale": "Trial mandates minimum TIL thresholds (\u22655% TNBC, \u22651% LumB, up to \u226550% in specific cohorts), explicitly excluding immune-cold/low-TIL patients."
+    },
+    {
+      "nctId": "NCT07244874",
+      "lexical": "immunogenic_gated",
+      "judge": "immunogenic_gated",
+      "agree": true,
+      "rationale": "Inclusion criterion #5 explicitly requires PD-L1 CPS>=1, excluding immune-cold PD-L1-negative TNBC patients."
+    },
+    {
+      "nctId": "NCT02484404",
+      "lexical": "cold_gated",
+      "judge": "cold_gated",
+      "agree": true,
+      "rationale": "TNBC arm requires documentation of germline BRCA1/2 mutation status and excludes prior PARPi, enriching for HRD/cold-associated patients rather than PD-L1/TIL-hot patients."
+    },
+    {
+      "nctId": "NCT02401347",
+      "lexical": "cold_gated",
+      "judge": "cold_gated",
+      "agree": true,
+      "rationale": "Requires HRD+ score \u226542 or HR-pathway mutations while explicitly excluding gBRCA1/2 carriers, selecting DNA-repair-deficient immune-cold tumors."
+    },
+    {
+      "nctId": "NCT01145430",
+      "lexical": "cold_gated",
+      "judge": "permissive",
+      "agree": false,
+      "rationale": "Eligibility requires TNBC (ER-/PR-/HER2-) but imposes no PD-L1, TIL, BRCA mutation, or HRD immune-phenotype gating criteria."
+    },
+    {
+      "nctId": "NCT02627430",
+      "lexical": "cold_gated",
+      "judge": "cold_gated",
+      "agree": true,
+      "rationale": "TNBC expansion cohort explicitly excludes germline BRCA1/2 mutation carriers, selecting against HRD/immune-cold BRCA-driven tumors paradoxically, but BRCA carriers excluded = cold-associated genotype barred."
+    },
+    {
+      "nctId": "NCT00576654",
+      "lexical": "cold_gated",
+      "judge": "permissive",
+      "agree": false,
+      "rationale": "Dose-escalation phase open to any solid tumor; TNBC expansion cohorts split by BRCA status but no PD-L1/TIL immune-phenotype gating applied."
+    },
+    {
+      "nctId": "NCT06938724",
+      "lexical": "cold_gated",
+      "judge": "cold_gated",
+      "agree": true,
+      "rationale": "Trial excludes BRCA1/2 and PALB2 mutation carriers, removing HRD/immune-cold enriched patients, though pCR requirement may bias toward immunogenic tumors."
+    },
+    {
+      "nctId": "NCT05318469",
+      "lexical": "cold_gated",
+      "judge": "mixed",
+      "agree": false,
+      "rationale": "Phase 1 allows any PD-L1 status; Phase 2 expansion requires PD-L1 negative, gating on immune-cold tumors specifically."
+    },
+    {
+      "nctId": "NCT05834582",
+      "lexical": "cold_gated",
+      "judge": "cold_gated",
+      "agree": true,
+      "rationale": "Centrally confirmed germline BRCA1/2 mutation is mandatory, selecting HRD/immune-cold-associated patients and excluding BRCA-wildtype immune-hot BLIA tumors."
+    },
+    {
+      "nctId": "NCT06926868",
+      "lexical": "cold_gated",
+      "judge": "cold_gated",
+      "agree": true,
+      "rationale": "Trial explicitly requires PD-L1 negative disease or anti-PD1/PD-L1 ineligibility, selecting immune-cold/excluded-immunogenic patients and excluding PD-L1+ immune-hot TNBC."
+    },
+    {
+      "nctId": "NCT04683679",
+      "lexical": "cold_gated",
+      "judge": "cold_gated",
+      "agree": true,
+      "rationale": "mTNBC patients must have prior ICI progression and/or be PD-L1 negative, explicitly selecting immune-cold/refractory patients and excluding ICI-naive PD-L1+ immune-hot patients."
+    },
+    {
+      "nctId": "NCT02208375",
+      "lexical": "cold_gated",
+      "judge": "permissive",
+      "agree": false,
+      "rationale": "TNBC eligibility requires only standard ER/PR-negative pathology; no PD-L1, TIL, BRCA, or HRD immune-phenotype gating applied."
+    },
+    {
+      "nctId": "NCT04134884",
+      "lexical": "cold_gated",
+      "judge": "cold_gated",
+      "agree": true,
+      "rationale": "Trial excludes known deleterious BRCA mutation carriers, effectively selecting HRD-unknown/non-BRCA patients and using a PARP inhibitor mechanism associated with cold/HRD tumors."
+    },
+    {
+      "nctId": "NCT04291950",
+      "lexical": "cold_gated",
+      "judge": "cold_gated",
+      "agree": true,
+      "rationale": "Trial explicitly excludes BRCA1/2 mutation carriers, enriching for non-HRD tumors and depleting immune-cold BRCA-associated BLIS subtype patients."
+    },
+    {
+      "nctId": "NCT00679783",
+      "lexical": "cold_gated",
+      "judge": "cold_gated",
+      "agree": true,
+      "rationale": "Trial requires TNBC or known BRCA-mutant breast/ovarian cancer, selecting HRD/BRCA-associated immune-cold tumors; no PD-L1/TIL criteria."
+    },
+    {
+      "nctId": "NCT05485766",
+      "lexical": "cold_gated",
+      "judge": "cold_gated",
+      "agree": true,
+      "rationale": "Eligibility requires confirmed germline BRCA1/2 mutation, an HRD/immune-cold-associated marker, excluding non-BRCA TNBC patients regardless of PD-L1/TIL status."
+    },
+    {
+      "nctId": "NCT01445418",
+      "lexical": "cold_gated",
+      "judge": "cold_gated",
+      "agree": true,
+      "rationale": "Trial requires gBRCA1/2 mutation or high BRCAPRO score (Group A) or TNBC with negative BRCA/family history (Group B), selecting HRD/cold-associated biology; no immune-hot markers required."
+    },
+    {
+      "nctId": "NCT04837209",
+      "lexical": "cold_gated",
+      "judge": "cold_gated",
+      "agree": true,
+      "rationale": "Trial requires PD-L1 negative or immunotherapy-refractory status and excludes BRCA mutation carriers, selecting immune-cold/non-immunogenic TNBC patients."
+    },
+    {
+      "nctId": "NCT01116648",
+      "lexical": "cold_gated",
+      "judge": "permissive",
+      "agree": false,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD immune-phenotype gating for TNBC; eligibility based on histology, prior therapy, and performance status only."
+    },
+    {
+      "nctId": "NCT02595905",
+      "lexical": "cold_gated",
+      "judge": "cold_gated",
+      "agree": true,
+      "rationale": "Trial requires TNBC or germline BRCA1/2 mutation; BRCA mutation carriers are immune-cold/HRD-enriched, and no PD-L1/TIL hot criteria required."
+    },
+    {
+      "nctId": "NCT03289819",
+      "lexical": "cold_gated",
+      "judge": "cold_gated",
+      "agree": true,
+      "rationale": "Exclusion of known pathogenic BRCA mutation carriers selects against a key immune-cold (HRD+) subgroup, biasing toward non-BRCA TNBC; no PD-L1/TIL requirement."
+    },
+    {
+      "nctId": "NCT02393794",
+      "lexical": "cold_gated",
+      "judge": "permissive",
+      "agree": false,
+      "rationale": "Eligibility requires TNBC or gBRCA mutation; no PD-L1, TIL, or immune-phenotype biomarker gating applied."
+    },
+    {
+      "nctId": "NCT05522491",
+      "lexical": "cold_gated",
+      "judge": "cold_gated",
+      "agree": true,
+      "rationale": "Requires BRCA1/2 unmutated plus BRCA1 promoter methylation, selecting HRD-associated cold tumors and excluding immune-hot BLIA patients."
+    },
+    {
+      "nctId": "NCT03674242",
+      "lexical": "cold_gated",
+      "judge": "cold_gated",
+      "agree": true,
+      "rationale": "BRCA1/2 mutation carriers are explicitly excluded, selecting against a key immune-cold/HRD-associated subgroup while imposing no PD-L1/TIL requirements."
+    },
+    {
+      "nctId": "NCT04755868",
+      "lexical": "cold_gated",
+      "judge": "cold_gated",
+      "agree": true,
+      "rationale": "Requires platinum-sensitivity (HRD surrogate) and enrolls gBRCA1/2-tested patients; PARP inhibitor mechanism targets HRD/cold tumors, excluding immune-hot enrichment criteria."
+    },
+    {
+      "nctId": "NCT01306032",
+      "lexical": "cold_gated",
+      "judge": "cold_gated",
+      "agree": true,
+      "rationale": "TNBC arm requires no immune markers but trial overall requires BRCA mutation/HRD context; PARP inhibitor focus selects HRD/BRCA-associated (immune-cold) biology, excluding immune-hot criteria."
+    },
+    {
+      "nctId": "NCT06492759",
+      "lexical": "mixed",
+      "judge": "immunogenic_gated",
+      "agree": false,
+      "rationale": "Trial explicitly requires PD-L1 CPS \u226510 (Dako 22C3), directly excluding immune-cold BLIS-like TNBC patients."
+    },
+    {
+      "nctId": "NCT05174832",
+      "lexical": "mixed",
+      "judge": "immunogenic_gated",
+      "agree": false,
+      "rationale": "Inclusion requires PD-L1 CPS\u22651, explicitly selecting immune-hot tumors and excluding PD-L1-negative/immune-cold TNBC patients."
+    },
+    {
+      "nctId": "NCT06678048",
+      "lexical": "mixed",
+      "judge": "permissive",
+      "agree": false,
+      "rationale": "No PD-L1/TIL/BRCA enrollment requirement; prior PD-1 or PARP treatment history referenced only as prior therapy context, not as gating biomarker."
+    },
+    {
+      "nctId": "NCT03567720",
+      "lexical": "mixed",
+      "judge": "mixed",
+      "agree": true,
+      "rationale": "Cohort 1 is PD-L1 unrestricted (permissive), while Cohort 2 explicitly requires PD-L1 negative/cold disease (CPS<10), creating simultaneous immunogenic and cold strata."
+    },
+    {
+      "nctId": "NCT06954480",
+      "lexical": "mixed",
+      "judge": "cold_gated",
+      "agree": false,
+      "rationale": "Trial explicitly requires PD-L1 negativity (CPS<10), directly excluding immune-hot/BLIA-like tumors and enriching for immune-cold TNBC patients."
+    },
+    {
+      "nctId": "NCT05539365",
+      "lexical": "mixed",
+      "judge": "cold_gated",
+      "agree": false,
+      "rationale": "First-line arm explicitly requires PD-L1 negative status, selecting immune-cold/BLIS-like patients; second-line allows both, but the defining novel arm targets PD-L1-negative tumors."
+    },
+    {
+      "nctId": "NCT04468061",
+      "lexical": "mixed",
+      "judge": "cold_gated",
+      "agree": false,
+      "rationale": "Trial explicitly requires PD-L1-negative status (IC<1% by SP142 or CPS<10 by 22C3), excluding immune-hot/BLIA-like tumors and selecting immune-cold patients."
+    },
+    {
+      "nctId": "NCT05382299",
+      "lexical": "mixed",
+      "judge": "cold_gated",
+      "agree": false,
+      "rationale": "Trial requires PD-L1 negative tumors (or PD-L1+ exhausted by prior anti-PD-L1), effectively selecting immune-cold TNBC and excluding untreated PD-L1+ immune-hot patients."
+    },
+    {
+      "nctId": "NCT04634747",
+      "lexical": "mixed",
+      "judge": "immunogenic_gated",
+      "agree": false,
+      "rationale": "Trial explicitly requires PD-L1 positivity, excluding immune-cold BLIS-like TNBC patients."
+    },
+    {
+      "nctId": "NCT07299409",
+      "lexical": "mixed",
+      "judge": "permissive",
+      "agree": false,
+      "rationale": "Trial explicitly includes PD-L1 negative (CPS<10) and IO-ineligible patients; no immune-hot enrichment required, allowing any TNBC regardless of immune phenotype."
+    },
+    {
+      "nctId": "NCT06324240",
+      "lexical": "mixed",
+      "judge": "permissive",
+      "agree": false,
+      "rationale": "No mandatory PD-L1/TIL/BRCA inclusion gate; all TNBC stages eligible regardless of immune-phenotype markers."
+    },
+    {
+      "nctId": "NCT06926920",
+      "lexical": "mixed",
+      "judge": "cold_gated",
+      "agree": false,
+      "rationale": "Phase 2 preferentially targets PD-L1 CPS<10 (immune-cold) patients; CPS\u226510 allowed only if checkpoint inhibitor-ineligible, effectively enriching for cold tumors."
+    },
+    {
+      "nctId": "NCT06732323",
+      "lexical": "mixed",
+      "judge": "cold_gated",
+      "agree": false,
+      "rationale": "Eligibility explicitly requires PD-L1-negative tumors or PD-L1-positive patients who failed/cannot receive checkpoint inhibitors, thereby enriching for immune-cold patients."
+    },
+    {
+      "nctId": "NCT05374512",
+      "lexical": "mixed",
+      "judge": "cold_gated",
+      "agree": false,
+      "rationale": "Trial requires patients who are NOT candidates for PD-1/PD-L1 inhibitors, explicitly including PD-L1-negative tumors, thereby enriching for immune-cold phenotypes."
+    },
+    {
+      "nctId": "NCT04722978",
+      "lexical": "mixed",
+      "judge": "cold_gated",
+      "agree": false,
+      "rationale": "Trial excludes BRCA-mutated and PD-L1-positive patients, selecting immune-cold/non-immunogenic TNBC while excluding hot/BLIA-like patients."
+    },
+    {
+      "nctId": "NCT06342037",
+      "lexical": "mixed",
+      "judge": "cold_gated",
+      "agree": false,
+      "rationale": "Eligibility requires PD-L1 negative (CPS<10) OR prior anti-PD(L)1 treatment, explicitly selecting immune-cold/checkpoint-resistant patients and excluding untreated PD-L1-high tumors."
+    },
+    {
+      "nctId": "NCT05544929",
+      "lexical": "mixed",
+      "judge": "immunogenic_gated",
+      "agree": false,
+      "rationale": "TNBC arm explicitly requires historic PD-L1 CPS \u22651%, excluding immune-cold/PD-L1-negative patients."
+    },
+    {
+      "nctId": "NCT06279364",
+      "lexical": "mixed",
+      "judge": "cold_gated",
+      "agree": false,
+      "rationale": "Eligibility explicitly requires PD-L1-negative tumors or PD-L1-positive patients who failed prior anti-PD-1/L1, effectively enriching for immune-cold patients."
+    },
+    {
+      "nctId": "NCT04958785",
+      "lexical": "mixed",
+      "judge": "mixed",
+      "agree": true,
+      "rationale": "Cohort 1 requires PD-L1 negative (cold-gated); Cohort 2 requires PD-L1 positive patients to have received prior checkpoint inhibitor (immunogenic-gated context), covering both phenotypes."
+    },
+    {
+      "nctId": "NCT07191405",
+      "lexical": "mixed",
+      "judge": "immunogenic_gated",
+      "agree": false,
+      "rationale": "TNBC arm explicitly requires PD-L1 positive (CPS\u22651), excluding immune-cold PD-L1-negative TNBC patients."
+    },
+    {
+      "nctId": "NCT04584112",
+      "lexical": "mixed",
+      "judge": "mixed",
+      "agree": true,
+      "rationale": "Cohort A requires PD-L1 positive (immune-hot); Cohort B requires PD-L1 testing but not positivity, making it permissive on immune phenotype."
+    },
+    {
+      "nctId": "NCT04770272",
+      "lexical": "mixed",
+      "judge": "permissive",
+      "agree": false,
+      "rationale": "PD-L1 status is assessed but not used as an inclusion/exclusion gate; both PD-L1 positive and negative patients are enrolled."
+    },
+    {
+      "nctId": "NCT03281954",
+      "lexical": "mixed",
+      "judge": "permissive",
+      "agree": false,
+      "rationale": "PD-L1 tested centrally for stratification only, not as an inclusion/exclusion criterion; all TNBC patients regardless of PD-L1 status are eligible."
+    },
+    {
+      "nctId": "NCT06157892",
+      "lexical": "mixed",
+      "judge": "permissive",
+      "agree": false,
+      "rationale": "No PD-L1/TIL/BRCA immune-phenotype gate; cohorts select on HER2 expression level only, open to all immune phenotypes."
+    },
+    {
+      "nctId": "NCT05770531",
+      "lexical": "mixed",
+      "judge": "cold_gated",
+      "agree": false,
+      "rationale": "Trial explicitly requires PD-L1 negative (CPS<10) or checkpoint inhibitor ineligibility, excluding immune-hot/PD-L1+ TNBC patients."
+    },
+    {
+      "nctId": "NCT02807844",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD requirements; TNBC group only excludes prior anti-PD-1/PD-L1 treatment, not immune-phenotype markers."
+    },
+    {
+      "nctId": "NCT05698238",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD requirements; any TNBC patient meeting general performance/lab criteria is eligible."
+    },
+    {
+      "nctId": "NCT03487666",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD criteria required; any TNBC with residual disease post-neoadjuvant chemotherapy is eligible regardless of immune phenotype."
+    },
+    {
+      "nctId": "NCT00130533",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "Eligibility based on TNBC histology, nodal/stage criteria, and chemotherapy history; no PD-L1, TIL, BRCA, or immune-phenotype requirements."
+    },
+    {
+      "nctId": "NCT06125080",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD selection criteria required; any TNBC patient meeting standard clinical criteria is eligible."
+    },
+    {
+      "nctId": "NCT06371807",
+      "lexical": "permissive",
+      "judge": "immunogenic_gated",
+      "agree": false,
+      "rationale": "Eligibility requires sTILs \u226510%, explicitly selecting immune-hot tumors and excluding immune-cold BLIS-like patients."
+    },
+    {
+      "nctId": "NCT03872388",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD requirements; selects on residual disease (RCB-II/III) after NACT regardless of immune phenotype."
+    },
+    {
+      "nctId": "NCT02580448",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD requirements; TNBC eligible solely by ER/PgR/HER2 negativity regardless of immune phenotype."
+    },
+    {
+      "nctId": "NCT06955156",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD selection criteria required; any newly diagnosed TNBC stage T1c-T4 is eligible."
+    },
+    {
+      "nctId": "NCT03109080",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD requirements; all TNBC patients with radiation indication eligible regardless of immune phenotype."
+    },
+    {
+      "nctId": "NCT01662128",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "Eligibility requires TNBC (or HER2+ or LN\u22654) with no PD-L1, TIL, BRCA, or other immune-phenotype criteria specified."
+    },
+    {
+      "nctId": "NCT02038699",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD requirements; any TNBC with advanced disease and limited options is eligible regardless of immune phenotype."
+    },
+    {
+      "nctId": "NCT00499603",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "Eligibility requires only TNBC (ER/PR/HER2-negative) with no PD-L1, TIL, BRCA, or other immune-phenotype selection criteria."
+    },
+    {
+      "nctId": "NCT06920810",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD requirements; any TNBC patient receiving ICI-based adjuvant chemotherapy is eligible."
+    },
+    {
+      "nctId": "NCT06782698",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD criteria required; TNBC included alongside HER2+ without immune-phenotype gating."
+    },
+    {
+      "nctId": "NCT01990209",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "Trial gates on AR+ expression only; no PD-L1, TIL, BRCA, or HRD requirements, allowing any immune-phenotype TNBC."
+    },
+    {
+      "nctId": "NCT05339685",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD requirements; any solid tumor including TNBC eligible regardless of immune phenotype."
+    },
+    {
+      "nctId": "NCT02926196",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD requirements; eligibility based solely on TNBC subtype, stage, and treatment history."
+    },
+    {
+      "nctId": "NCT05955521",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "No PD-L1, TIL, BRCA, or immune-phenotype criteria; accepts any TNBC or HER2+ patient planned for neoadjuvant chemotherapy."
+    },
+    {
+      "nctId": "NCT04230109",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD requirements; any TNBC patient meeting standard clinicopathologic criteria is eligible."
+    },
+    {
+      "nctId": "NCT00691379",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD requirements; selects only on TNBC definition (ER-/PR-/HER2-) with standard clinical criteria."
+    },
+    {
+      "nctId": "NCT06104085",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD requirements; any TNBC patient eligible regardless of immune-phenotype markers."
+    },
+    {
+      "nctId": "NCT02616848",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD requirements; any TNBC patient eligible regardless of immune-phenotype markers."
+    },
+    {
+      "nctId": "NCT04510129",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "No PD-L1, TIL, or BRCA status required; any TNBC patient receiving anti-PD-1/PD-L1 therapy is eligible."
+    },
+    {
+      "nctId": "NCT02225470",
+      "lexical": "permissive",
+      "judge": "permissive",
+      "agree": true,
+      "rationale": "No PD-L1, TIL, BRCA, or HRD criteria required; eligibility based solely on prior chemotherapy history and performance status."
+    }
+  ]
+}

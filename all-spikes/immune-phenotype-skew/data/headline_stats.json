@@ -1,0 +1,256 @@
+{
+  "full_corpus": {
+    "n": 1452,
+    "counts": {
+      "permissive": 1277,
+      "immunogenic_gated": 84,
+      "cold_gated": 63,
+      "mixed": 28
+    },
+    "rates": {
+      "immunogenic_gated": 0.05785123966942149,
+      "cold_gated": 0.04338842975206612,
+      "permissive": 0.8794765840220385,
+      "mixed": 0.01928374655647383
+    },
+    "ci": {
+      "immunogenic_gated": [
+        0.046968691957200506,
+        0.07106722623609746
+      ],
+      "cold_gated": [
+        0.0340588309208392,
+        0.05512779487691243
+      ],
+      "permissive": [
+        0.8617210322012959,
+        0.8952294492247054
+      ],
+      "mixed": [
+        0.013374996042953674,
+        0.02772947576222074
+      ]
+    },
+    "imm_to_cold_ratio": 1.3333333333333333
+  },
+  "icb_stratum": {
+    "n": 396,
+    "counts": {
+      "permissive": 317,
+      "immunogenic_gated": 50,
+      "mixed": 13,
+      "cold_gated": 16
+    },
+    "rates": {
+      "immunogenic_gated": 0.12626262626262627,
+      "cold_gated": 0.04040404040404041,
+      "permissive": 0.8005050505050505,
+      "mixed": 0.03282828282828283
+    },
+    "ci": {
+      "immunogenic_gated": [
+        0.09709933160535358,
+        0.16260751230483486
+      ],
+      "cold_gated": [
+        0.025020556801123212,
+        0.06461894043978418
+      ],
+      "permissive": [
+        0.7583410093938469,
+        0.8368947039486366
+      ],
+      "mixed": [
+        0.019283474377050382,
+        0.05535008051068516
+      ]
+    },
+    "imm_to_cold_ratio": 3.125
+  },
+  "non_icb_stratum": {
+    "n": 1056,
+    "counts": {
+      "permissive": 960,
+      "immunogenic_gated": 34,
+      "cold_gated": 47,
+      "mixed": 15
+    },
+    "rates": {
+      "immunogenic_gated": 0.032196969696969696,
+      "cold_gated": 0.04450757575757576,
+      "permissive": 0.9090909090909091,
+      "mixed": 0.014204545454545454
+    },
+    "ci": {
+      "immunogenic_gated": [
+        0.023130558117534512,
+        0.044654665636656675
+      ],
+      "cold_gated": [
+        0.03363374424893678,
+        0.05868344730119675
+      ],
+      "permissive": [
+        0.8902368353046118,
+        0.9249793252990103
+      ],
+      "mixed": [
+        0.00862671369535582,
+        0.023304095587842726
+      ]
+    },
+    "imm_to_cold_ratio": 0.723404255319149
+  },
+  "no_icb_no_parpi_stratum": {
+    "n": 995,
+    "counts": {
+      "permissive": 930,
+      "immunogenic_gated": 34,
+      "cold_gated": 17,
+      "mixed": 14
+    },
+    "rates": {
+      "immunogenic_gated": 0.034170854271356785,
+      "cold_gated": 0.017085427135678392,
+      "permissive": 0.9346733668341709,
+      "mixed": 0.01407035175879397
+    },
+    "ci": {
+      "immunogenic_gated": [
+        0.024554479013509656,
+        0.0473704388112986
+      ],
+      "cold_gated": [
+        0.01069420332274923,
+        0.02719128322486753
+      ],
+      "permissive": [
+        0.9175862922051403,
+        0.9484168858763495
+      ],
+      "mixed": [
+        0.008399584895863395,
+        0.02347894319107251
+      ]
+    },
+    "imm_to_cold_ratio": 2.0
+  },
+  "tests": {
+    "immunogenic_gated_rate_icb_vs_nonicb": {
+      "z": 6.837719164278023,
+      "p_two_sided": 8.046393552743365e-12
+    },
+    "imm_vs_cold_within_nonicb": {
+      "z": -1.4729663928097216,
+      "p_two_sided": 0.14076009795191918
+    },
+    "imm_vs_cold_within_no_icb_no_parpi": {
+      "z": 2.4115788534930997,
+      "p_two_sided": 0.015883616775657704
+    }
+  },
+  "settings_breakdown_full": {
+    "neoadjuvant": {
+      "n": 440,
+      "counts": {
+        "immunogenic_gated": 34,
+        "permissive": 383,
+        "mixed": 8,
+        "cold_gated": 15
+      },
+      "rates": {
+        "immunogenic_gated": 0.07727272727272727,
+        "cold_gated": 0.03409090909090909,
+        "permissive": 0.8704545454545455,
+        "mixed": 0.01818181818181818
+      },
+      "ci": {
+        "immunogenic_gated": [
+          0.05582127438193218,
+          0.10604187679632601
+        ],
+        "cold_gated": [
+          0.02076634684404555,
+          0.055480674615862674
+        ],
+        "permissive": [
+          0.8358429303667804,
+          0.8986533403748537
+        ],
+        "mixed": [
+          0.00924105611372734,
+          0.03546318071310457
+        ]
+      },
+      "imm_to_cold_ratio": 2.2666666666666666
+    },
+    "metastatic": {
+      "n": 1149,
+      "counts": {
+        "permissive": 994,
+        "immunogenic_gated": 77,
+        "cold_gated": 51,
+        "mixed": 27
+      },
+      "rates": {
+        "immunogenic_gated": 0.0670147954743255,
+        "cold_gated": 0.044386422976501305,
+        "permissive": 0.8651000870322019,
+        "mixed": 0.02349869451697128
+      },
+      "ci": {
+        "immunogenic_gated": [
+          0.053951452228128985,
+          0.08296380135050659
+        ],
+        "cold_gated": [
+          0.03391932362369005,
+          0.057889993458552634
+        ],
+        "permissive": [
+          0.8441258226908965,
+          0.883641114241289
+        ],
+        "mixed": [
+          0.016199149921796257,
+          0.033973918086852975
+        ]
+      },
+      "imm_to_cold_ratio": 1.5098039215686274
+    },
+    "refractory": {
+      "n": 713,
+      "counts": {
+        "permissive": 594,
+        "immunogenic_gated": 54,
+        "mixed": 21,
+        "cold_gated": 44
+      },
+      "rates": {
+        "immunogenic_gated": 0.07573632538569425,
+        "cold_gated": 0.061711079943899017,
+        "permissive": 0.8330995792426368,
+        "mixed": 0.029453015427769985
+      },
+      "ci": {
+        "immunogenic_gated": [
+          0.058508551274906936,
+          0.09751141185223298
+        ],
+        "cold_gated": [
+          0.046288520237345004,
+          0.0818312763816012
+        ],
+        "permissive": [
+          0.8039587489329022,
+          0.8586702056366987
+        ],
+        "mixed": [
+          0.0193433711785488,
+          0.04460604247155185
+        ]
+      },
+      "imm_to_cold_ratio": 1.2272727272727273
+    }
+  }
+}

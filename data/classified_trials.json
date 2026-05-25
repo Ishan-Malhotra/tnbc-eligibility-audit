@@ -1,0 +1,46 @@
+[
+  {
+    "nctId": "NCT05877859",
+    "is_immunotherapy": false,
+    "blia_compatible": true,
+    "blis_compatible": true,
+    "exclusionary_mechanisms": [],
+    "short_biological_rationale": "Stub validation placeholder"
+  },
+  {
+    "nctId": "NCT02644369",
+    "is_immunotherapy": true,
+    "blia_compatible": true,
+    "blis_compatible": false,
+    "exclusionary_mechanisms": [
+      "Biomarker threshold requirements"
+    ],
+    "short_biological_rationale": "Stub validation placeholder"
+  },
+  {
+    "nctId": "NCT05068141",
+    "is_immunotherapy": false,
+    "blia_compatible": true,
+    "blis_compatible": false,
+    "exclusionary_mechanisms": [
+      "Biomarker threshold requirements"
+    ],
+    "short_biological_rationale": "Stub validation placeholder"
+  },
+  {
+    "nctId": "NCT06268327",
+    "is_immunotherapy": false,
+    "blia_compatible": true,
+    "blis_compatible": true,
+    "exclusionary_mechanisms": [],
+    "short_biological_rationale": "Stub validation placeholder"
+  },
+  {
+    "nctId": "NCT02681562",
+    "is_immunotherapy": false,
+    "blia_compatible": true,
+    "blis_compatible": true,
+    "exclusionary_mechanisms": [],
+    "short_biological_rationale": "Stub validation placeholder"
+  }
+]
